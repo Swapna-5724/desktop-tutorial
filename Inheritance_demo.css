@@ -1,0 +1,26 @@
+body {
+    color: purple;
+}
+
+h1 {
+    color: blue;
+}
+
+section {
+    color: aqua;
+}
+
+form {
+    color: greenyellow;
+}
+
+/* button {
+    color: inherit;
+} */
+
+button, input {
+    color: inherit;
+} 
+
+
+/* Not every element inherit every property */

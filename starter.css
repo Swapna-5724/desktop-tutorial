@@ -1,0 +1,164 @@
+/* universal selector */
+
+/* * {
+    color: pink;
+    background-color: cyan;
+} */
+
+body {
+    background-color: hwb(187 93% 4%);
+}
+
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+
+h1, h2 {
+    color: #1d3557;
+}
+
+#signup{
+    background-color: #1d3557;
+    color: white;     /*white -> #f1faee*/
+}
+
+span {
+    color: #457b9d;
+}
+
+.tag {
+    background-color: #e63946;
+    color: #f1faee;
+    fomt-size: 16px;
+}
+
+span a {
+     color: #457b9d;   /*anchor tag inside span */
+}
+
+section span a {
+     color: #457b9d;
+}
+
+.post a {
+    color: #457b9d;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer a {
+    color: #ec4f4f;
+}
+
+/* Adjacent selector */
+input + button {
+    background-color: pink;      /*it is only for button that is immediately after input  [adjacent selector]*/
+}
+
+h2 + button {
+    font-size: 20px;
+    background-color: magenta;
+}
+
+
+/* desendent selector */
+footer > a {
+    color:#a8dadc;
+}
+
+input [type="password"] {
+    color: rgb(217, 90, 27);
+}
+
+section[class="post"] {
+    background-color: purple;
+}
+
+/* Attribute selector */
+/* input {
+    color: green;
+} */
+
+input[type="password"] {
+     color: green;
+}
+
+section[class="post"] {
+    background-color: #1d3557;
+}
+
+section.post {
+    
+}
+
+a[href*="google"]{
+    color: magenta
+}
+/* pseudo class */
+button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+.post a:hover {
+    text-decoration: overline; /*Underline*/
+}
+
+
+.post button:active {
+    background-color: #588157;
+}
+
+.post:nth-of-type(3n) {
+    background-color: #dfe8dc;   /*2n, 2, 3n, 3*/
+}
+
+/* psedo elements */
+ /* ::after,  ::before ::first-letter  ::first-line  ::selection */
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: #fcbf49;
+}
+
+h1,h2 {
+    color: yellow;
+}
+
+/* specifity */
+button:hover {
+    background-color: olive;
+    font-size: 10px;
+}
+
+/* inline styles */
+button {
+    background-color: magenta;  !important;
+}
+
+
+
+
+/* class-selector -> .post    Element selector -> button */
+
+/* .complete {
+    color: green;      ->    class selector -> select elements with class of 'complete'
+        height:
+} */       
+
+
+/* #logout {
+    color: orange;      ->   class selector  -> select the element with the id of 'logout'
+} */

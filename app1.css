@@ -1,0 +1,27 @@
+/* tecnically selecting all of them */
+/* text-align  */
+/* font-weight */
+/* numeric keyword values: 400 is normal and 700 is bold */
+h1 {
+    text-align: center;   
+    /* width: 50%; */
+    /* font-weight: normal; */
+    font-weight: 900;
+     text-decoration: blue underline wavy;  /*overline, line-through; blue -> #f78120 */
+     letter-spacing: 10px;
+     font-size: 100px; /*80px */
+     /* font-family: segoe UI, Futura, Arial sans sarif;*/  [/*verdana  segoe UI, Futura, monospace */]
+     font-family: fantasy;
+}
+
+p {
+    /* text-align: right; */
+    font-weight: 700;
+    line-height: 2;   /*0.5, */
+}
+a {
+    text-decoration: none;
+}
+ h1,h2 {
+    color: darkslateblue;
+ }

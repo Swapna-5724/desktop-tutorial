@@ -1,0 +1,4 @@
+Adjacent selector -> select only the paragraphs that are immediately preceeded by an <h1> 
+   h1 + P  {
+    color: red;
+   }
